@@ -1,0 +1,2 @@
+2021-03-11T13:10:36+00:00 CRITICAL Out of memory (allocated 8388608) (tried to allocate 20480 bytes) in C:\xampp\htdocs\crowz\wp-includes\rest-api.php on line 3179
+
