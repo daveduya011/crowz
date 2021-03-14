@@ -1,0 +1,8 @@
+2021-03-13T03:28:38+00:00 CRITICAL Cannot redeclare crowz_customize_register() (previously declared in C:\xampp\htdocs\crowz\wp-content\themes\crowz\inc\customizer.php:13) in C:\xampp\htdocs\crowz\wp-content\themes\crowz\inc\customizer.php on line 13
+
+2021-03-13T03:51:18+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\xampp\htdocs\crowz\wp-content\themes\crowz\header.php on line 44
+
+2021-03-13T03:51:57+00:00 CRITICAL syntax error, unexpected 'if' (T_IF), expecting ';' or ',' in C:\xampp\htdocs\crowz\wp-content\themes\crowz\header.php on line 45
+
+2021-03-13T04:29:52+00:00 CRITICAL syntax error, unexpected '/', expecting end of file in C:\xampp\htdocs\crowz\wp-content\themes\crowz\header.php on line 30
+

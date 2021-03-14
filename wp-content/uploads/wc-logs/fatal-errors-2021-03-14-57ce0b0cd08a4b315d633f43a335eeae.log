@@ -1,0 +1,4 @@
+2021-03-14T08:02:12+00:00 CRITICAL Out of memory (allocated 8388608) (tried to allocate 32768 bytes) in C:\xampp\htdocs\crowz\wp-content\plugins\woocommerce\packages\woocommerce-blocks\build\attribute-filter.asset.php on line 1
+
+2021-03-14T10:39:41+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\xampp\htdocs\crowz\wp-content\themes\crowz\template-parts\content.php on line 65
+

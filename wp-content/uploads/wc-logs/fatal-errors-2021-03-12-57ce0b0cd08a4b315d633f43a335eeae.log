@@ -1,0 +1,153 @@
+2021-03-12T16:28:20+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\crowz\wp-content\themes\crowz\inc\customizer.php:37
+Stack trace:
+#0 C:\xampp\htdocs\crowz\wp-includes\class-wp-hook.php(292): crowz_customize_register(Object(WP_Customize_Manager))
+#1 C:\xampp\htdocs\crowz\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\crowz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\crowz\wp-includes\class-wp-customize-manager.php(933): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 C:\xampp\htdocs\crowz\wp-includes\class-wp-hook.php(292): WP_Customize_Manager->wp_loaded('')
+#5 C:\xampp\htdocs\crowz\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\crowz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\crowz\wp-settings.php(582): do_action('wp_loaded')
+#8 C:\xampp\htdocs\crowz\wp-config.php(92): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\crowz\wp-loa in C:\xampp\htdocs\crowz\wp-content\themes\crowz\inc\customizer.php on line 37
+
+2021-03-12T16:28:24+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\crowz\wp-content\themes\crowz\inc\customizer.php:37
+Stack trace:
+#0 C:\xampp\htdocs\crowz\wp-includes\class-wp-hook.php(292): crowz_customize_register(Object(WP_Customize_Manager))
+#1 C:\xampp\htdocs\crowz\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\crowz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\crowz\wp-includes\class-wp-customize-manager.php(933): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 C:\xampp\htdocs\crowz\wp-includes\class-wp-hook.php(292): WP_Customize_Manager->wp_loaded('')
+#5 C:\xampp\htdocs\crowz\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\crowz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\crowz\wp-settings.php(582): do_action('wp_loaded')
+#8 C:\xampp\htdocs\crowz\wp-config.php(92): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\crowz\wp-loa in C:\xampp\htdocs\crowz\wp-content\themes\crowz\inc\customizer.php on line 37
+
+2021-03-12T16:29:25+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\crowz\wp-content\themes\crowz\inc\customizer.php:37
+Stack trace:
+#0 C:\xampp\htdocs\crowz\wp-includes\class-wp-hook.php(292): crowz_customize_register(Object(WP_Customize_Manager))
+#1 C:\xampp\htdocs\crowz\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\crowz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\crowz\wp-includes\class-wp-customize-manager.php(933): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 C:\xampp\htdocs\crowz\wp-includes\class-wp-hook.php(292): WP_Customize_Manager->wp_loaded('')
+#5 C:\xampp\htdocs\crowz\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\crowz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\crowz\wp-settings.php(582): do_action('wp_loaded')
+#8 C:\xampp\htdocs\crowz\wp-config.php(92): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\crowz\wp-loa in C:\xampp\htdocs\crowz\wp-content\themes\crowz\inc\customizer.php on line 37
+
+2021-03-12T16:29:50+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\crowz\wp-content\themes\crowz\inc\customizer.php:37
+Stack trace:
+#0 C:\xampp\htdocs\crowz\wp-includes\class-wp-hook.php(292): crowz_customize_register(Object(WP_Customize_Manager))
+#1 C:\xampp\htdocs\crowz\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\crowz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\crowz\wp-includes\class-wp-customize-manager.php(933): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 C:\xampp\htdocs\crowz\wp-includes\class-wp-hook.php(292): WP_Customize_Manager->wp_loaded('')
+#5 C:\xampp\htdocs\crowz\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\crowz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\crowz\wp-settings.php(582): do_action('wp_loaded')
+#8 C:\xampp\htdocs\crowz\wp-config.php(92): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\crowz\wp-loa in C:\xampp\htdocs\crowz\wp-content\themes\crowz\inc\customizer.php on line 37
+
+2021-03-12T16:31:32+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\crowz\wp-content\themes\crowz\inc\customizer.php:37
+Stack trace:
+#0 C:\xampp\htdocs\crowz\wp-includes\class-wp-hook.php(292): crowz_customize_register(Object(WP_Customize_Manager))
+#1 C:\xampp\htdocs\crowz\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\crowz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\crowz\wp-includes\class-wp-customize-manager.php(933): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 C:\xampp\htdocs\crowz\wp-includes\class-wp-hook.php(292): WP_Customize_Manager->wp_loaded('')
+#5 C:\xampp\htdocs\crowz\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\crowz\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\crowz\wp-settings.php(582): do_action('wp_loaded')
+#8 C:\xampp\htdocs\crowz\wp-config.php(92): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\crowz\wp-loa in C:\xampp\htdocs\crowz\wp-content\themes\crowz\inc\customizer.php on line 37
+
+2021-03-12T16:40:45+00:00 CRITICAL Uncaught Error: Call to undefined function control() in C:\xampp\htdocs\crowz\wp-content\themes\crowz\header.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crowz\wp-includes\template.php(730): require_once()
+#1 C:\xampp\htdocs\crowz\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\crowz\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\crowz\wp-content\themes\crowz\page.php(15): get_header()
+#4 C:\xampp\htdocs\crowz\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\crowz\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\crowz\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\crowz\wp-content\themes\crowz\header.php on line 42
+
+2021-03-12T16:45:29+00:00 CRITICAL Uncaught Error: Call to undefined function get_header_tagline_first() in C:\xampp\htdocs\crowz\wp-content\themes\crowz\header.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crowz\wp-includes\template.php(730): require_once()
+#1 C:\xampp\htdocs\crowz\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\crowz\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\crowz\wp-content\themes\crowz\page.php(15): get_header()
+#4 C:\xampp\htdocs\crowz\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\crowz\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\crowz\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\crowz\wp-content\themes\crowz\header.php on line 42
+
+2021-03-12T16:46:38+00:00 CRITICAL Uncaught Error: Call to undefined function get_header_tagline_first() in C:\xampp\htdocs\crowz\wp-content\themes\crowz\header.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crowz\wp-includes\template.php(730): require_once()
+#1 C:\xampp\htdocs\crowz\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\crowz\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\crowz\wp-content\themes\crowz\page.php(15): get_header()
+#4 C:\xampp\htdocs\crowz\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\crowz\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\crowz\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\crowz\wp-content\themes\crowz\header.php on line 42
+
+2021-03-12T16:46:43+00:00 CRITICAL Uncaught Error: Call to undefined function get_header_tagline_first() in C:\xampp\htdocs\crowz\wp-content\themes\crowz\header.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crowz\wp-includes\template.php(730): require_once()
+#1 C:\xampp\htdocs\crowz\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\crowz\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\crowz\wp-content\themes\crowz\page.php(15): get_header()
+#4 C:\xampp\htdocs\crowz\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\crowz\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\crowz\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\crowz\wp-content\themes\crowz\header.php on line 42
+
+2021-03-12T16:46:50+00:00 CRITICAL syntax error, unexpected '$tagline_first' (T_VARIABLE), expecting ';' or ',' in C:\xampp\htdocs\crowz\wp-content\themes\crowz\header.php on line 45
+
+2021-03-12T16:46:58+00:00 CRITICAL Uncaught Error: Call to undefined function get_header_tagline_first() in C:\xampp\htdocs\crowz\wp-content\themes\crowz\header.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crowz\wp-includes\template.php(730): require_once()
+#1 C:\xampp\htdocs\crowz\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\crowz\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\crowz\wp-content\themes\crowz\page.php(15): get_header()
+#4 C:\xampp\htdocs\crowz\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\crowz\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\crowz\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\crowz\wp-content\themes\crowz\header.php on line 42
+
+2021-03-12T16:47:07+00:00 CRITICAL Uncaught Error: Call to undefined function get_header_tagline_first() in C:\xampp\htdocs\crowz\wp-content\themes\crowz\header.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crowz\wp-includes\template.php(730): require_once()
+#1 C:\xampp\htdocs\crowz\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\crowz\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\crowz\wp-content\themes\crowz\page.php(15): get_header()
+#4 C:\xampp\htdocs\crowz\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\crowz\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\crowz\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\crowz\wp-content\themes\crowz\header.php on line 42
+
+2021-03-12T16:49:29+00:00 CRITICAL Uncaught Error: Call to undefined function get_header_tagline_first() in C:\xampp\htdocs\crowz\wp-content\themes\crowz\header.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crowz\wp-includes\template.php(730): require_once()
+#1 C:\xampp\htdocs\crowz\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\crowz\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\crowz\wp-content\themes\crowz\page.php(15): get_header()
+#4 C:\xampp\htdocs\crowz\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\crowz\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\crowz\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\crowz\wp-content\themes\crowz\header.php on line 42
+
+2021-03-12T16:56:59+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in C:\xampp\htdocs\crowz\wp-content\themes\crowz\header.php on line 52
+
