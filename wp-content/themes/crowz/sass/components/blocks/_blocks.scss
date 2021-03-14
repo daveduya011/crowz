@@ -1,0 +1,138 @@
+.wp-block-group {
+  padding: 30px 60px 60px 60px;
+}
+
+.justify-right {
+  justify-content: flex-end;
+}
+
+
+.btn-text-arrow .wp-block-button__link{
+  background: transparent;
+  font-size: 18px;
+}
+
+
+.crowz-group {
+  h1 {
+    font-weight: 500;
+    font-size: 48px;
+    letter-spacing: 0.2em;
+    line-height: 1;
+    margin-top: -10px;
+  }
+  h2 {
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 0.2em;
+  }
+  h3 {
+    font-size: 36px;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    margin-top: -10px;
+  }
+
+  .wc-block-grid__products {
+    justify-content: space-evenly;
+
+    .wc-block-grid__product {
+      max-width: 30%;
+      padding-bottom: 60px;
+      border: 0;
+
+      .price {
+        position: absolute;
+        left: 30px;
+        font-size: 30px;
+        top: 25px;
+        font-weight: 600;
+      }
+      .wc-block-grid__product-add-to-cart {
+        position: absolute;
+        right: 20px;
+
+        .add_to_cart_button {
+          @include button-outline;
+          font-size: 14px;
+          font-weight: 200;
+          &.added {
+            display: none;
+          }
+        }
+        .added_to_cart {
+          color: #fff;
+          font-weight: 200;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .wp-block-columns {
+    margin-bottom: 0;
+  }
+
+  .wp-block-button {
+    .wp-block-button__link {
+      font-size: 16px;
+    }
+  }
+
+  &.wp-block-cover {
+    width: calc(100% + 160px);
+    margin-left: calc(-80px);
+    padding: 0 150px;
+  }
+}
+
+//Product Blocks
+.wc-block-grid__product {
+  background: #0D0D0D;
+}
+
+.wp-block-uagb-testimonia {
+  padding: 0;
+}
+
+.uagb-slick-carousel  {
+  .slick-slide {
+    img {
+      padding: 10px;
+    }
+
+    .uagb-post__title {
+      font-weight: 500;
+      font-size: 20px;
+      letter-spacing: 0.1em;
+    }
+
+    .uagb-post__date {
+      font-weight: 300;
+      font-size: 14px;
+      letter-spacing: 0.1em;
+
+      .dashicons {
+        display: none;
+      }
+      &:after {
+        display: none;
+      }
+    }
+
+
+    .uagb-post__taxonomy {
+      @include button-outline;
+      font-weight: 300;
+      font-size: 13px;
+      padding: 5px 10px;
+      cursor: default;
+      .dashicons {
+        display: none;
+      }
+    }
+    .uagb-post__cta {
+      display: none;
+    }
+  }
+}

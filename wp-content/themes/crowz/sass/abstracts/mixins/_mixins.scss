@@ -1,0 +1,32 @@
+// Center block
+@mixin center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// Column width with margin
+@mixin column-width($numberColumns: 3) {
+	width: map-get($columns, $numberColumns) - ( ( $columns__margin * ( $numberColumns - 1 ) ) / $numberColumns );
+}
+
+@mixin button-outline {
+	border: 1px solid $color__primary;
+	background: transparent;
+	box-sizing: border-box;
+	border-radius: 38px;
+	font-weight: 200;
+	color: #fff;
+	width: fit-content;
+	cursor: pointer;
+	a {
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        padding: 10px 20px;
+	}
+	&:hover {
+		background: $color__primary;
+		color: #fff;
+	}
+}

@@ -1,0 +1,9 @@
+body {
+	background: #111;
+}
+
+.editor-post-title__input, .editor-post-title__block {
+	color: #fff !important;
+}
+
+/*# sourceMappingURL=editor-style.css.map */

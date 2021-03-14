@@ -1,0 +1,15 @@
+.blog {
+
+  .site-main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  article {
+    width: 30%;
+    background: #0D0D0D;
+    margin: 10px;
+    padding: 20px;
+  }
+}

@@ -1,0 +1,26 @@
+// Do we need to serve a font? Add the @font-face styles here.
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("./assets/fonts/BebasNeue-Regular.otf") format("opentype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("./assets/fonts/BebasNeue-Bold.otf") format("opentype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("./assets/fonts/BebasNeue-Book.otf") format("opentype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("./assets/fonts/BebasNeue-Light.otf") format("opentype");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("./assets/fonts/BebasNeue-Thin.otf") format("opentype");
+  font-weight: 100;
+}
