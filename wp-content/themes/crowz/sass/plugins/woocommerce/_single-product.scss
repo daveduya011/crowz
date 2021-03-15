@@ -1,9 +1,13 @@
 .single-product {
+	.product_title {
+		display: inline-block;
+	}
 
 	div.product {
 		position: relative;
 
 		.woocommerce-product-gallery {
+			padding: 20px;
 			position: relative;
 			float: left;
 

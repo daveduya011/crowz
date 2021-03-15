@@ -208,11 +208,16 @@ ul.products li.product img {
 /**
  * Single product
  */
+.single-product .product_title {
+	display: inline-block;
+}
+
 .single-product div.product {
 	position: relative;
 }
 
 .single-product div.product .woocommerce-product-gallery {
+	padding: 20px;
 	position: relative;
 	float: left;
 }
