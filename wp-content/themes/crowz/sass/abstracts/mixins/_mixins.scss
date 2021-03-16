@@ -11,6 +11,7 @@
 }
 
 @mixin button-outline {
+	display: block;
 	border: 1px solid $color__primary;
 	background: transparent;
 	box-sizing: border-box;

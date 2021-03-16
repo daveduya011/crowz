@@ -14,15 +14,19 @@ input[type="datetime"],
 input[type="datetime-local"],
 input[type="color"],
 textarea {
-	color: $color__text-input;
-	border: 1px solid $color__border-input;
+	border: 1px $color__primary solid;
+	background: transparent;
+	color: #fff;
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+	letter-spacing: 0.1em;
 	border-radius: 3px;
-	padding: 3px;
+	padding: 10px;
 
 	&:focus {
-		color: $color__text-input-focus;
+		color: #fff;
 	}
 }
+
 
 select {
 	border: 1px solid $color__border-input;

@@ -28,6 +28,11 @@
 	header {
 		position: relative;
 	}
+	.entry-content, .entry-footer, .comments-area {
+		padding: 30px 50px;
+		margin: 10px 0;
+		background: #0d0d0d
+	}
 	.entry-header {
 		display: flex;
 		flex-direction: column;

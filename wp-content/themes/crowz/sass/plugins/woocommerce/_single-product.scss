@@ -5,7 +5,7 @@
 
 	.single_add_to_cart_button{
 		@include button-outline;
-		padding: 20px;
+		padding: 10px 20px;
 		margin: 20px 0;
 	}
 
@@ -41,11 +41,6 @@
 				padding: 0 10px;
 			}
 		}
-	}
-
-	input.qty {
-		background: #000;
-		color: #fff;
 	}
 
 	div.product {
