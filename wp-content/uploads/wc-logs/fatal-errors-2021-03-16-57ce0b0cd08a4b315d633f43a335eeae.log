@@ -1,0 +1,4 @@
+2021-03-16T04:57:20+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\xampp\htdocs\crowz\wp-content\themes\crowz\template-parts\content.php on line 74
+
+2021-03-16T04:57:37+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\xampp\htdocs\crowz\wp-content\themes\crowz\template-parts\content.php on line 75
+

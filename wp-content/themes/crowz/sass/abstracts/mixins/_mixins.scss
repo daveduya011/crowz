@@ -25,7 +25,7 @@
         color: #fff;
         padding: 10px 20px;
 	}
-	&:hover {
+	&:hover, &.active {
 		background: $color__primary;
 		color: #fff;
 	}
