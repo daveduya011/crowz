@@ -1076,9 +1076,13 @@ body,
 }
 
 .comment-list {
-	background: #4C20A9;
+	background: #000;
 	padding: 20px 30px;
 	margin: 10px 0;
+}
+
+.comment-list .says {
+	display: none;
 }
 
 .comment-list .comment-content {

@@ -8,9 +8,13 @@
 
 .comment-list {
 
-  background: $color__primary;
+  background: #000;
   padding: 20px 30px;
   margin: 10px 0;
+
+  .says {
+    display: none;
+  }
 
   .comment-content {
     background: #0D0D0D;
