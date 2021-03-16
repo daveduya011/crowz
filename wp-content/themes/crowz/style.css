@@ -656,6 +656,7 @@ textarea {
 	letter-spacing: 0.1em;
 	border-radius: 3px;
 	padding: 10px;
+	font-size: 16px;
 }
 
 input[type="text"]:focus,
@@ -1072,6 +1073,19 @@ body,
 
 .bypostauthor {
 	display: block;
+}
+
+.comment-list {
+	background: #4C20A9;
+	padding: 20px 30px;
+	margin: 10px 0;
+}
+
+.comment-list .comment-content {
+	background: #0D0D0D;
+	border-radius: 20px;
+	padding: 10px 20px;
+	margin: 10px 0;
 }
 
 /* Widgets

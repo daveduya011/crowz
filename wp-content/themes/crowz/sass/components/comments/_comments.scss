@@ -1,7 +1,21 @@
 .comment-content a {
-	word-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .bypostauthor {
-	display: block;
+  display: block;
+}
+
+.comment-list {
+
+  background: $color__primary;
+  padding: 20px 30px;
+  margin: 10px 0;
+
+  .comment-content {
+    background: #0D0D0D;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 10px 0;
+  }
 }
