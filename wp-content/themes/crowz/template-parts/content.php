@@ -15,6 +15,7 @@
             style="
                     background: url('<?php echo get_the_post_thumbnail_url(); ?>') fixed;
                     background-size: cover;
+                    background-position: center;
                     height: 300px;
                     width: 100%;"
         <?php endif; ?>
