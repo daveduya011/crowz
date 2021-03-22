@@ -56,6 +56,24 @@
 		.entry-title {
 			font-size: 50px;
 			letter-spacing: 0.1em;
+			margin: 10px 40px 10px 40px;
+			text-align: center;
+		}
+	}
+
+	.author-info {
+		display: flex;
+		flex-wrap: wrap;
+		z-index: 2;
+		justify-content: center;
+		align-items: center;
+
+		.avatar {
+			img {
+				height: 50px;
+				border-radius: 100%;
+			}
+			margin: 10px 18px
 		}
 	}
 }
