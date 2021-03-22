@@ -906,24 +906,21 @@ body,
 .single-post .entry-header .entry-title {
 	font-size: 50px;
 	letter-spacing: 0.1em;
-	margin: 10px 40px 10px 40px;
+	margin: 10px 40px 0px 40px;
 	text-align: center;
 }
 
-.single-post .author-info {
-	display: flex;
-	flex-wrap: wrap;
+.single-post .entry-header .entry-meta {
+	margin-bottom: 20px;
+}
+
+.single-post .avatar {
+	margin: 20px;
 	z-index: 2;
-	justify-content: center;
-	align-items: center;
 }
 
-.single-post .author-info .avatar {
-	margin: 10px 18px;
-}
-
-.single-post .author-info .avatar img {
-	height: 50px;
+.single-post .avatar img {
+	height: 120px;
 	border-radius: 100%;
 }
 

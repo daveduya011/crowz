@@ -22,15 +22,14 @@
     >
         <?php
         if (is_singular()) :
-            the_title('<h1 class="entry-title">', '</h1>');
             $get_author_id = get_the_author_meta('ID');
             $get_author_gravatar = get_avatar_url($get_author_id);
             ?>
-        <div class="author-info">
             <div class="avatar">
                 <img src="<?php echo $get_author_gravatar ?>" />
             </div>
         <?php
+            the_title('<h1 class="entry-title">', '</h1>');
         else :
             the_title('<h2 class="entry-title"><a href="' . esc_url(get_permalink()) . '" rel="bookmark">', '</a></h2>');
         endif;
@@ -44,7 +43,6 @@
                 ?>
             </div><!-- .entry-meta -->
         <?php endif; ?>
-        </div>
     </header><!-- .entry-header -->
 
 
