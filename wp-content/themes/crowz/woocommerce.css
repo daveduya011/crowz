@@ -317,6 +317,7 @@ ul.products li.product img {
 
 .single-product div.product .woocommerce-product-gallery .flex-viewport {
 	margin-bottom: 1em;
+	max-width: 500px;
 }
 
 .single-product div.product .woocommerce-product-gallery .flex-control-thumbs {
