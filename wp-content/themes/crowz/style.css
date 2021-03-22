@@ -5005,6 +5005,11 @@ body,
 	padding: 20px;
 }
 
+.blog article .entry-footer {
+	display: flex;
+	flex-direction: column;
+}
+
 .home .site-header {
 	height: 100%;
 }
