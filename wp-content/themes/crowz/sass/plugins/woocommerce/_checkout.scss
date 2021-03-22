@@ -19,3 +19,38 @@
 		}
 	}
 }
+.woocommerce-checkout {
+	.form-row {
+		background: #111;
+		padding: 20px;
+		input {
+			margin: 0 10px;
+		}
+	}
+
+	ul {
+		padding: 0;
+		margin: 0;
+
+		li {
+			margin: 0;
+			list-style-type: none;
+		}
+	}
+}
+
+.select2-container--open .select2-dropdown--below {
+	background: #000;
+}
+.select2-selection__rendered {
+	color: #fff !important;
+}
+.select2-selection {
+	background: transparent !important;
+	width: auto;
+	height: 60px;
+}
+.select2 {
+	width: auto !important;
+	min-width: 400px;
+}

@@ -235,7 +235,6 @@ p.stars {
  * Forms
  */
 .form-row {
-
 	&.woocommerce-validated {
 
 		input.input-text {
@@ -252,7 +251,7 @@ p.stars {
 }
 
 .required {
-	color: #f00;
+	color: $color__primary;
 }
 
 /**
@@ -263,8 +262,18 @@ p.stars {
 .woocommerce-error,
 .woocommerce-noreviews,
 p.no-comments {
-	background-color: $woocommerce__color-success;
+	background-color: $woocommerce__color-info;;
 	clear: both;
+	padding: 10px 20px;
+	border-radius: 30px;
+	a {
+		text-decoration: underline;
+		color: #fff;
+	}
+}
+
+.woocommerce-error {
+	background-color: $color__error;
 }
 
 .woocommerce-info,
