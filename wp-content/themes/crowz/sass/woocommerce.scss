@@ -9,6 +9,9 @@ $woocommerce__color-error: #e2401c;
 $woocommerce__color-success: #0f834d;
 $woocommerce__color-info: #6c24cf;
 
+// Import variables and mixins.
+@import "bootstrap/bootstrap-grid";
+
 // Import variables and mixins
 @import "abstracts/abstracts";
 

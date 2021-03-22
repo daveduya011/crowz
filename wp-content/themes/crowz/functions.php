@@ -148,7 +148,7 @@ function crowz_scripts() {
 	wp_enqueue_style( 'crowz-style', get_stylesheet_uri(), array(), CROWZ_VERSION );
 	wp_style_add_data( 'crowz-style', 'rtl', 'replace' );
 
-	wp_enqueue_script( 'crowz-navigation', get_template_directory_uri() . '/js/navigation.js', array(), CROWZ_VERSION, true );
+    wp_enqueue_script( 'crowz-navigation', get_template_directory_uri() . '/js/navigation.js', array(), CROWZ_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
