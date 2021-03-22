@@ -4916,11 +4916,15 @@ body,
 	display: block;
 }
 
-.post,
-.page {
+#page {
 	margin: 0 0 1.5em;
 	height: 100%;
 	position: relative;
+	width: 100%;
+	padding-right: var(--bs-gutter-x, 0.75rem);
+	padding-left: var(--bs-gutter-x, 0.75rem);
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .updated:not(.published) {
@@ -4938,6 +4942,14 @@ body,
 	margin: 0 0 1.5em;
 }
 
+.single-post article {
+	background: #0F0F0F;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
 .single-post header {
 	position: relative;
 }
@@ -4946,6 +4958,11 @@ body,
 	padding: 30px 50px;
 	margin: 10px 0;
 	background: #0d0d0d;
+	max-width: 900px;
+}
+
+.single-post .entry-content {
+	margin-top: 50px;
 }
 
 .single-post .entry-header {

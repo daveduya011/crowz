@@ -2,11 +2,11 @@
 	display: block;
 }
 
-.post,
-.page {
+#page {
 	margin: 0 0 1.5em;
 	height: 100%;
 	position: relative;
+	@include make-container();
 }
 
 .updated:not(.published) {
@@ -25,13 +25,24 @@
 }
 
 .single-post {
+	article {
+		background: #0F0F0F;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 20px;
+	}
 	header {
 		position: relative;
 	}
 	.entry-content, .entry-footer, .comments-area {
 		padding: 30px 50px;
 		margin: 10px 0;
-		background: #0d0d0d
+		background: #0d0d0d;
+		max-width: 900px;
+	}
+	.entry-content {
+		margin-top: 50px;
 	}
 	.entry-header {
 		display: flex;
